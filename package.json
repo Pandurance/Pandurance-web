@@ -2,18 +2,31 @@
   "dependencies": {
     "serve": "^14.2.3"
   },
+  "browser": {},
   "name": "pandurance-web",
   "version": "1.0.0",
-  "description": "Website for Pandurance Racing.",
+  "description": "My webpack project",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "serve .",
-    "format": "html-format"
+    "format": "html-format",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch"
   },
   "author": "Andy Zhang <andy@pandurance.tech>",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "3.3.3"
+    "@webpack-cli/generators": "^3.0.7",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "3.3.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "workbox-webpack-plugin": "^7.1.0"
   }
 }

@@ -1,3 +1,7 @@
+import "/assets/css/styles.css";
+import "/assets/css/bs-theme-overrides.css";
+import "/assets/js/darkmode";
+
 function makeHeader() {
   $(".navbar").html(`
       <div class="container-fluid">
@@ -31,7 +35,7 @@ function makeHeader() {
 }
 
 function makeFooter() {
-  $(".footer").html(`
+  let footerHtml = `
       <div class="container text-muted py-4 py-lg-5">
         <p>Made using&nbsp;<a href="https://bootstrapstudio.io">Bootstrap Studio</a></p>
         <a href="https://instagram.com/panduranceracing"><i class="bi bi-instagram"></i></a>
@@ -43,59 +47,65 @@ function makeFooter() {
             <p>Supported by</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row">`;
+
+    console.log(global.sponsorImgList)
+  for (const img of global.sponsorImgList) {
+    footerHtml += `
           <div class="col-md-3 align-self-center">
-            <img src="assets/img/Memorigin.svg" style="max-height: 100px" />
+            <img src="${img}" style="max-height: 100px" />
           </div>
-          <div class="col-md-3">
-            <img src="assets/img/SJC.svg" style="height: initial; max-height: 100px" />
-          </div>
-          <div class="col-md-3 align-self-center">
-            <img src="assets/img/Q-STEM.svg" style="max-height: 100px" />
-          </div>
-          <div class="col-md-3 align-self-center">
-            <img src="assets/img/GR.svg" style="max-height: 100px" />
-          </div>
+      `;
+  }
+  footerHtml += `
         </div>
-      </div>
-      `);
+      </div>`;
+
+  console.log(footerHtml);
+  $(".footer").html(footerHtml);
 }
 
 function addMember(name, post, spool) {
   const elm = $("#index-members-showcase");
 
-  elm.html(
-    elm.html() +
-      `
-        <div class="col">
-          <div class="card border-0 shadow-none">
-            <div class="card-body d-flex align-items-center p-0">
-              <img
-                class="rounded-circle flex-shrink-0 me-3 fit-cover"
-                width="130"
-                height="130"
-                src="assets/img/${spool.toUpperCase()}.png"
-              />
-              <div>
-                <h5 class="fw-bolder text-primary mb-0">${name}</h5>
-                <p class="text-muted mb-1">${post}</p>
-                <a href="mailto:${spool}@pandurance.tech"><i class="bi bi-envelope-at-fill text-muted"></i> </a>
+  import(`/assets/img/${spool.toUpperCase()}.png`).then(function (m) {
+    elm.html(
+      elm.html() +
+        `
+            <div class="col">
+              <div class="card border-0 shadow-none">
+                <div class="card-body d-flex align-items-center p-0">
+                  <img
+                    class="rounded-circle flex-shrink-0 me-3 fit-cover"
+                    width="130"
+                    height="130"
+                    src="${m.default}"
+                  />
+                  <div>
+                    <h5 class="fw-bolder text-primary mb-0">${name}</h5>
+                    <p class="text-muted mb-1">${post}</p>
+                    <a href="mailto:${spool}@pandurance.tech"><i class="bi bi-envelope-at-fill text-muted"></i> </a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>`,
-  );
+            </div>`,
+    );
+  });
 }
 
-function addSponsor(name, imgName, desc) {
+async function addSponsor(name, imgName, desc) {
   const elm = $("#index-sponsors");
+
+  const m = await import(`/assets/img/${imgName}.svg`)
+  global.sponsorImgList.push(m.default);
+  console.log(m.default);
   elm.html(
     elm.html() +
       `
     <div class="col-lg-6">
           <div class="card">
             <div class="card-body p-4">
-              <img src="assets/img/${imgName}.svg" style="height: 100px" />
+              <img src=${m.default} style="height: 100px" />
               <h4 class="card-title">${name}</h4>
               <p class="card-text">
                 ${desc}
@@ -107,9 +117,10 @@ function addSponsor(name, imgName, desc) {
   );
 }
 
-$(function () {
+$(async function () {
   makeHeader();
-  makeFooter();
+
+  global.sponsorImgList = [];
 
   addMember("Marcus Hung", "Project Manager", "marcus");
   addMember("Andy Zhang", "Graphic Designer", "andy");
@@ -118,8 +129,10 @@ $(function () {
   addMember("Magnus Chan", "Design Engineer", "magnus");
   addMember("Zack Leung", "Sponsorship and marketing Manager", "zack");
 
-  addSponsor("Memorigin", "Memorigin", "Desc");
-  addSponsor("St. Joseph's College", "SJC", "Desc");
-  addSponsor("Q-mark STEM", "Q-STEM", "Desc");
-  addSponsor("Golden Resources", "GR", "Desc");
+  await addSponsor("Memorigin", "Memorigin", "Desc");
+  await addSponsor("St. Joseph's College", "SJC", "Desc");
+  await addSponsor("Q-mark STEM", "Q-STEM", "Desc");
+  await addSponsor("Golden Resources", "GR", "Desc");
+
+  makeFooter();
 });
