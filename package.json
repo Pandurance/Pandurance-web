@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "serve": "^14.2.3"
+  },
+  "name": "pandurance-web",
+  "version": "1.0.0",
+  "description": "Website for Pandurance Racing.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve .",
+    "format": "html-format"
+  },
+  "author": "Andy Zhang <andy@pandurance.tech>",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.3.3"
+  }
+}
