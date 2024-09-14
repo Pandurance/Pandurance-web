@@ -2,20 +2,20 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 @font-face {
-  font-family: "HK Modular Rounded";
-  src: url(../../assets/fonts/HKM.woff2) format("woff2");
+  font-family: "HKMB";
+  src: url(/assets/fonts/HKM-B.ttf) format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 .navbar-brand {
-  font-family: "HK Modular Rounded";
+  font-family: "HKMB";
   color: var(--accent);
 }
 
 h1 {
-  font-family: "HK Modular Rounded";
+  font-family: "HKMB";
   color: var(--accent);
 }
 
