@@ -11,7 +11,6 @@ const authors = {
 
 async function getContent(name) {
   const response = await fetch(`https://raw.githubusercontent.com/ZCG-coder/Pandurance-blogs/main/pages/${name}.md`);
-  console.log(response);
   const content = await response.text();
 
   return marked.parse(content);
@@ -49,9 +48,10 @@ function makeImage(name) {
 export async function getBlogs() {
   const path = window.location.pathname;
   const page = path.split("/").pop();
-  if (page === "blog") {
+
+  // On server
+  if (page.includes('blog')) {
     const response = await fetch("https://raw.githubusercontent.com/ZCG-coder/Pandurance-blogs/main/index.json");
-    console.log(response);
     const content = await response.text();
     const elm = $("#blog-entries");
     const obj = JSON.parse(content);
