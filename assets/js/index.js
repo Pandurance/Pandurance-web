@@ -52,7 +52,7 @@ async function addSponsor(name, url, imgName, desc) {
     <div class="col-lg-6">
           <div class="card">
             <div class="card-body p-4">
-              <img src=${m.default} style="height: 100px" />
+              <img src="${m.default}" style="height: 100px" />
               <h4 class="card-title"><a href="${url}">${name}</a></h4>
               <p class="card-text">
                 ${desc}
@@ -70,8 +70,8 @@ function addTool(name, url, imgUrl, type, desc) {
         <div class="col">
           <div class="card">
             <img
-              class="card-img-top img-fluid align-self-center"
-              style="max-width: 10em;"
+              class="img-fluid align-self-center"
+              style="height: 5em;"
               src="${imgUrl}"
             />
             <div class="card-body p-4">
@@ -149,10 +149,26 @@ $(async function () {
 
   addTool(
     "Serve",
-    "npmjs.com/package/serve",
+    "https://npmjs.com/package/serve",
     "https://github.com/vercel/serve/blob/main/media/banner.png?raw=true",
     type.development,
     "Serve is a local server that allows hot reloading, which accelerates the website development.",
+  );
+
+  addTool(
+    "Bootstrap Studio",
+    "https://bootstrapstudio.io",
+    "https://bootstrapstudio.io/assets/img/logo_128.png",
+    type.layout,
+    "Allows quick drag-and-drop UI design.",
+  );
+
+  addTool(
+    "Marked.js",
+    "https://marked.js.org",
+    "https://marked.js.org/img/logo-black.svg",
+    type.layout,
+    "Allows rendering Markdown content as HTML.",
   );
 
   makeFooter();
