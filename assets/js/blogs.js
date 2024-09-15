@@ -11,6 +11,7 @@ const authors = {
 
 async function getContent(name) {
   const response = await fetch(`https://raw.githubusercontent.com/ZCG-coder/Pandurance-blogs/main/pages/${name}.md`);
+  console.log(response);
   const content = await response.text();
 
   return marked.parse(content);
@@ -50,6 +51,7 @@ export async function getBlogs() {
   const page = path.split("/").pop();
   if (page === "blog") {
     const response = await fetch("https://raw.githubusercontent.com/ZCG-coder/Pandurance-blogs/main/index.json");
+    console.log(response);
     const content = await response.text();
     const elm = $("#blog-entries");
     const obj = JSON.parse(content);
@@ -77,6 +79,6 @@ export async function getBlogs() {
     </div>`);
     }
 
-    console.log("Blogs loaded.")
+    console.log("Blogs loaded.");
   }
 }
