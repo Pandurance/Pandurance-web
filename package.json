@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "marked": "^14.1.2",
     "serve": "^14.2.3"
   },
   "browser": {},
