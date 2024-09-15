@@ -8,13 +8,13 @@ const isProduction = process.env.NODE_ENV == "production";
 
 const stylesHandler = "style-loader";
 
-let htmlPageNames = ['blog'];
+let htmlPageNames = ["blog", "about_site"];
 
-let multipleHtmlPlugins = htmlPageNames.map(name => {
+let multipleHtmlPlugins = htmlPageNames.map((name) => {
   return new HtmlWebpackPlugin({
-    template: `./${name}.html`, // relative path to the HTML files
+    template: `./pages/${name}.html`, // relative path to the HTML files
     filename: `${name}.html`, // output HTML files
-  })
+  });
 });
 
 const config = {
@@ -24,7 +24,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "index.html",
+      template: path.resolve(__dirname, "/pages/index.html"),
     }),
 
     // Add your plugins here
