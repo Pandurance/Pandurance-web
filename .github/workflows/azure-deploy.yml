@@ -5,13 +5,13 @@ on:
     branches:
       - main
     paths:
-      - '**.js'
-      - '**.html'
-      - '**.css'
-      - '**.svg'
-      - '**.png'
-      - '**.jpg'
-      - '**.json'
+      - "**.js"
+      - "**.html"
+      - "**.css"
+      - "**.svg"
+      - "**.png"
+      - "**.jpg"
+      - "**.json"
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:

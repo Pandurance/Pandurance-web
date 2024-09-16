@@ -1,7 +1,7 @@
 import "/assets/css/styles.css";
 import "/assets/css/bs-theme-overrides.css";
 import { getPreferredTheme } from "./darkmode";
-import { getBlogs } from "./blogs";
+import "./blogs";
 import { makeHeader, makeFooter } from "./headerFooter";
 
 const type = {
@@ -86,7 +86,6 @@ function addTool(name, url, imgUrl, type, desc) {
 
 $(async function () {
   makeHeader();
-  await getBlogs();
 
   global.sponsorsList = [];
 
