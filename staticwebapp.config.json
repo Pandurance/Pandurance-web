@@ -1,11 +1,14 @@
 {
   "trailingSlash": "auto",
-  "routes": [
-  ],
-  "navigationFallback": {
-  },
   "responseOverrides": {
-    "400": {
+    "404": {
       "rewrite": "/error.html"
     }
+  },
+  "globalHeaders": {
+    "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
+  },
+  "mimeTypes": {
+    ".json": "text/json"
+  }
 }
