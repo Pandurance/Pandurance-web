@@ -11,6 +11,11 @@ const authors = {
 
 async function getContent(name) {
   const response = await fetch(`https://raw.githubusercontent.com/ZCG-coder/Pandurance-blogs/main/pages/${name}.md`);
+  if (!response.ok) {
+    console.warn("Load failed!");
+    window.location.replace("/error.html");
+    return;
+  }
   const content = await response.text();
 
   return marked.parse(content);
@@ -50,8 +55,7 @@ export async function getBlogs(populateCards = false) {
   $("#featured-blog-title").html(title);
   $("#featured-blog-desc").html(desc);
   $("#idx-learn-more").attr("data-bs-target", `#blog-modal-${featuredBlogKey}`);
-  if (!populateCards)
-    return;
+  if (!populateCards) return;
 
   for (const key in obj) {
     const value = obj[key];
@@ -89,16 +93,17 @@ $(async function () {
       <p id="featured-blog-desc">Desc</p>
       <a class="btn btn-primary btn-lg" href="/blog?id=${global.featuredBlogKey}">Learn More</a>
   `);
+  $("#featured-blog-learn-more").attr("href", `/blog?id=${global.featuredBlogKey}`);
   await getBlogs(true);
 
   const id = getSearchParams("id");
   if (id !== undefined) {
-    console.log(id)
-    $(`#blog-text`).html(await getContent(id))
-    $(`#non-blog-text`).html(``)
+    console.log(id);
+    $(`#blog-text`).html(await getContent(id));
+    $(`#non-blog-text`).html(``);
 
-    const author = global.obj[id]["author"]
-    const date = global.obj[id]["date"]
+    const author = global.obj[id]["author"];
+    const date = global.obj[id]["date"];
     const elm = $(`#${id}`);
     elm.html(await getContent(id));
     $(`<p class="text-muted">${makeAuthor(author)} ${date}</p>`).insertAfter($("div#blog-text > h1"));
