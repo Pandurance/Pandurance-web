@@ -37,7 +37,20 @@ export function makeFooter() {
   let footerHtml = `
       <div class="container text-muted py-4 py-lg-5">
         <p>Made using&nbsp;<a href="https://bootstrapstudio.io">Bootstrap Studio</a></p>
-        <a href="https://instagram.com/panduranceracing"><i class="bi bi-instagram"></i></a>
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <a href="https://instagram.com/panduranceracing"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div class="col">
+              <a href="https://github.com/pandurance"><i class="bi bi-github"></i></a>
+            </div>
+            <div class="col">
+              <a href="mailto:info@pandurance.tech"><i class="bi bi-envelope-at-fill"></i></a>
+            </div>
+          </div>
+        </div>
         <p class="mb-0">Copyright &copy; 2024 Pandurance Racing</p>
       </div>
       <div class="container">
