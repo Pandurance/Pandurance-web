@@ -1,0 +1,11 @@
+{
+  "trailingSlash": "auto",
+  "routes": [
+  ],
+  "navigationFallback": {
+  },
+  "responseOverrides": {
+    "400": {
+      "rewrite": "/error.html"
+    }
+}

@@ -8,7 +8,7 @@ const isProduction = process.env.NODE_ENV == "production";
 
 const stylesHandler = "style-loader";
 
-let htmlPageNames = ["blog", "about_site"];
+let htmlPageNames = ["blog", "about_site", "error"];
 
 let multipleHtmlPlugins = htmlPageNames.map((name) => {
   return new HtmlWebpackPlugin({
