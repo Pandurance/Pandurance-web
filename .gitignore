@@ -156,3 +156,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Sublime Text
+*.sublime-workspace

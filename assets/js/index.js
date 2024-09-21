@@ -124,7 +124,7 @@ $(async function () {
     "https://github.com",
     "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
     type.codeHosting,
-    "Our code is hosted on <a href='https://github.com/ZCG-coder/Pandurance-web'>GitHub</a>",
+    "Our code is hosted on <a href='https://github.com/Pandurance/Pandurance-web'>GitHub</a>",
   );
   addTool(
     "Azure",
