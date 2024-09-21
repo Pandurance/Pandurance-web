@@ -50,17 +50,17 @@ async function addSponsor(name, url, imgName, desc) {
   elm.append(
     `
     <div class="col-lg-6">
-          <div class="card">
-            <div class="card-body p-4">
-              <img src="${m.default}" style="height: 100px" />
-              <h4 class="card-title"><a href="${url}">${name}</a></h4>
-              <p class="card-text">
-                ${desc}
-              </p>
-            </div>
-          </div>
+      <div class="card">
+        <div class="card-body p-4">
+          <img src="${m.default}" style="height: 100px" />
+          <h4 class="card-title"><a href="${url}">${name}</a></h4>
+          <p class="card-text">
+            ${desc}
+          </p>
         </div>
-        `,
+      </div>
+    </div>
+    `,
   );
 }
 
@@ -100,10 +100,35 @@ $(async function () {
   addMember("Magnus Chan", "Design Engineer", "magnus");
   addMember("Zack Leung", "Sponsorship and Marketing Manager", "zack");
 
-  await addSponsor("Memorigin", "https://www.memorigin.com", "Memorigin", "Desc");
-  await addSponsor("St. Joseph's College", "https://www.sjc.edu.hk", "SJC", "Desc");
-  await addSponsor("Q-mark STEM", "https://www.qmark.org.hk/tc/plan-stem.asp", "Q-STEM", "Desc");
-  await addSponsor("Golden Resources", "https://www.rice.com.hk/customer/", "GR", "Desc");
+  await addSponsor(
+    "Memorigin",
+    "https://www.memorigin.com",
+    "Memorigin",
+    "Memorigin is a well-known Hong Kong watchmaker which specialises in creating Tourbillon watches.",
+  );
+  await addSponsor(
+    "St. Joseph's College",
+    "https://www.sjc.edu.hk",
+    "SJC",
+    "St. Joseph's College has undergone many \
+    changes since its establishment in 1875. Our College is now one of the most prestigious schools in Hong Kong, in \
+    both academic and extra-curricular areas.",
+  );
+  await addSponsor(
+    "Q-mark STEM",
+    "https://www.qmark.org.hk/tc/plan-stem.asp",
+    "Q-STEM",
+    "Q-Mark STEM aims to \
+    standardize the evaluation of STEM products and provide higher product quality assurance for STEM product \
+    developers to help the industry and consumers identify or judge the performance and quality of STEM products.",
+  );
+  await addSponsor(
+    "Golden Resources",
+    "https://www.rice.com.hk/customer/",
+    "GR",
+    "Golden resources was founded in 1946 as a trading company named Yuen Long, which obtained its rice importing \
+    license in Hong Kong in 1955 and began the Group’s romance with rice for decades.",
+  );
 
   addTool(
     "Bootstrap",

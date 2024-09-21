@@ -10,7 +10,7 @@
   "main": "pages/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serve .",
+    "start": "serve ./dist",
     "format": "prettier . --write",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
