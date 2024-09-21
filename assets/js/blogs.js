@@ -85,6 +85,7 @@ export async function getBlogs(populateCards = false) {
 $(async function () {
   global.obj = undefined;
   await getBlogs(false);
+  MathJax.Hub.Configured();
 
   $("#featured-blog-container").html(`
       <p class="fw-bold text-primary mb-2">Driven to win</p>
@@ -107,6 +108,9 @@ $(async function () {
     const elm = $(`#${id}`);
     elm.html(await getContent(id));
     $(`<p class="text-muted">${makeAuthor(author)} ${date}</p>`).insertAfter($("div#blog-text > h1"));
+    var math = document.getElementById(`blog-text`);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+    MathJax.Hub.Typeset();
     return;
   }
 });
