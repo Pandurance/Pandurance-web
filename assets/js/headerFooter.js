@@ -49,6 +49,9 @@ export function makeFooter() {
             <div class="col">
               <a href="mailto:info@pandurance.tech"><i class="bi bi-envelope-at-fill"></i></a>
             </div>
+            <div class="col">
+              <a href="https://wa.me/85254029725"><i class="bi bi-whatsapp"></i></a>
+            </div>
           </div>
         </div>
         <p class="mb-0">Copyright &copy; 2024 Pandurance Racing</p>
