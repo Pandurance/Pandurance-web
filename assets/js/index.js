@@ -65,6 +65,8 @@ async function addSponsor(name, url, imgName, desc) {
     </div>
     `,
   );
+
+  $(`<li><a class="dropdown-item" href="/about_sponsor?id=${imgName}">${name}</a></li>`).insertAfter($("#about-sponsors"));
 }
 
 function addTool(name, url, imgUrl, type, desc) {

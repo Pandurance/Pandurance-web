@@ -13,6 +13,23 @@ export function makeHeader() {
             <li class="nav-item">
               <a class="nav-link active" href="blog.html">Blog</a>
             </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="dropdown-toggle nav-link"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                id="nav-internals-dropdown"
+                href="#"
+                >More about us</a
+              >
+              <ul class="dropdown-menu">
+                <li><h6 class="dropdown-header" id="about-sponsors">Our Sponsors</h6></li>
+                <li class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="/about_site">About this site</a></li>
+              </ul>
+            </li>
+
             <li class="nav-item dropdown">
               <a
                 class="dropdown-toggle nav-link"
@@ -25,9 +42,6 @@ export function makeHeader() {
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="https://prj.pandurance.tech">Project Tracker</a>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="about_site.html">About this website</a>
             </li>
           </ul>
         </div>
@@ -43,16 +57,16 @@ export function makeFooter() {
         <div class="container">
           <div class="row">
             <div class="col">
-              <a href="https://instagram.com/panduranceracing"><i class="bi bi-instagram"></i></a>
+              <a href="https://instagram.com/panduranceracing"><i class="bi bi-instagram h2"></i></a>
             </div>
             <div class="col">
-              <a href="https://github.com/pandurance"><i class="bi bi-github"></i></a>
+              <a href="https://github.com/pandurance"><i class="bi bi-github h2"></i></a>
             </div>
             <div class="col">
-              <a href="mailto:info@pandurance.tech"><i class="bi bi-envelope-at-fill"></i></a>
+              <a href="mailto:info@pandurance.tech"><i class="bi bi-envelope-at-fill h2"></i></a>
             </div>
             <div class="col">
-              <a href="https://wa.me/85254029725"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://wa.me/message/4JUA7TSP72UJP1"><i class="bi bi-whatsapp h2"></i></a>
             </div>
           </div>
         </div>
