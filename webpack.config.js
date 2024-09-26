@@ -3,14 +3,14 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const WorkboxWebpackPlugin = require("workbox-webpack-plugin");
-const ImageminAvifWebpackPlugin= require("imagemin-avif-webpack-plugin");
+const ImageminAvifWebpackPlugin = require("imagemin-avif-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const isProduction = process.env.NODE_ENV == "production";
 
 const stylesHandler = "style-loader";
 
-let htmlPageNames = ["blog", "about_site", "error"];
+let htmlPageNames = ["blog", "about_site", "about_sponsor", "error"];
 
 let multipleHtmlPlugins = htmlPageNames.map((name) => {
   return new HtmlWebpackPlugin({
@@ -31,26 +31,28 @@ const config = {
 
     // Add your plugins here
     // Learn more about plugins from https://webpack.js.org/configuration/plugins/
-  ].concat(multipleHtmlPlugins).concat([
-    new ImageminAvifWebpackPlugin(
-      {
-        config: [{
-          test: /\.(jpe?g|png)/,
-          options: {
-            quality: 100
-          }
-        }],
+  ]
+    .concat(multipleHtmlPlugins)
+    .concat([
+      new ImageminAvifWebpackPlugin({
+        config: [
+          {
+            test: /\.(jpe?g|png)/,
+            options: {
+              quality: 100,
+            },
+          },
+        ],
         overrideExtension: true,
         detailedLogs: false,
         silent: false,
-        strict: true
-      }
-    ),
-    new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: "[id].css"
-    })
-  ]),
+        strict: true,
+      }),
+      new MiniCssExtractPlugin({
+        filename: "[name].css",
+        chunkFilename: "[id].css",
+      }),
+    ]),
   module: {
     rules: [
       {
@@ -58,15 +60,19 @@ const config = {
         use: [stylesHandler, "css-loader"],
       },
       {
+        test: /\.txt$/i,
+        use: 'raw-loader',
+      },
+      {
         test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
         type: "asset",
       },
-      
+
       // css file: extract to css file with mini extract plugin
       {
         test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader"]
-      }
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
+      },
 
       // Add your rules for custom modules here
       // Learn more about loaders from https://webpack.js.org/loaders/

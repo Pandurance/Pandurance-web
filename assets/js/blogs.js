@@ -1,5 +1,6 @@
 import { marked } from "marked";
 import $ from "jquery";
+import { getSearchParams } from "./util";
 
 const authors = {
   andy: ["Andy Zhang", "primary"],
@@ -30,15 +31,6 @@ function makeAuthor(name) {
 
 function makeImage(name) {
   return `https://github.com/Pandurance/Pandurance-blogs/raw/main/previews/${name}.avif`;
-}
-
-// https://stackoverflow.com/a/26744533/14868780
-function getSearchParams(k) {
-  var p = {};
-  location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (s, k, v) {
-    p[k] = v;
-  });
-  return k ? p[k] : p;
 }
 
 export async function getBlogs(populateCards = false) {

@@ -1,9 +1,9 @@
+import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "/assets/css/styles.css";
 import "/assets/css/bs-theme-overrides.css";
 import { getPreferredTheme } from "./darkmode";
 import $ from "jquery";
-import "./blogs";
 import { makeHeader, makeFooter } from "./headerFooter";
 
 const type = {
@@ -17,7 +17,6 @@ function addMember(name, post, spool) {
   const elm = $("#index-members-showcase");
 
   import(`/assets/img/MEMBERS/${spool.toUpperCase()}.png`).then(function (m) {
-    console.log(m.default);
     elm.append(
       `<div class="col">
         <div class="card border-0 shadow-none">
@@ -45,6 +44,7 @@ async function addSponsor(name, url, imgName, desc) {
 
   const m = await import(`/assets/img/SPONSORS/${imgName}.svg`);
   const obj = {
+    id: imgName,
     name: name,
     url: url,
     imgName: m.default,
@@ -56,7 +56,7 @@ async function addSponsor(name, url, imgName, desc) {
       <div class="card">
         <div class="card-body p-4">
           <img src="${m.default}" style="height: 100px" />
-          <h4 class="card-title"><a href="${url}">${name}</a></h4>
+          <h4 class="card-title"><a href="/about_sponsor?sid=${imgName}">${name}</a></h4>
           <p class="card-text">
             ${desc}
           </p>
@@ -66,7 +66,9 @@ async function addSponsor(name, url, imgName, desc) {
     `,
   );
 
-  $(`<li><a class="dropdown-item" href="/about_sponsor?id=${imgName}">${name}</a></li>`).insertAfter($("#about-sponsors"));
+  $(`<li><a class="dropdown-item" href="/about_sponsor?sid=${imgName}">${name}</a></li>`).insertAfter(
+    $("#about-sponsors"),
+  );
 }
 
 function addTool(name, url, imgUrl, type, desc) {
@@ -134,6 +136,13 @@ $(async function () {
     "Golden resources was founded in 1946 as a trading company named Yuen Long, which obtained its rice importing \
     license in Hong Kong in 1955 and began the Group’s romance with rice for decades.",
   );
+  await addSponsor(
+    "Ansys",
+    "https://www.ansys.com",
+    "ANSYS",
+    "We would like to express our sincere gratitude to our sponsor, Ansys, for supporting us by providing their \
+    simulation design tool, Ansys Discovery, to help us develop our car.",
+  );
 
   addTool(
     "Bootstrap",
@@ -200,5 +209,7 @@ $(async function () {
     "Allows rendering Markdown content as HTML.",
   );
 
+  import("./blogs");
+  import("./sponsor");
   makeFooter();
 });
