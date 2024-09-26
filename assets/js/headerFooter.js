@@ -1,3 +1,5 @@
+import $ from "jquery";
+
 export function makeHeader() {
   $(".navbar").html(`
       <div class="container-fluid">

@@ -1,6 +1,8 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "/assets/css/styles.css";
 import "/assets/css/bs-theme-overrides.css";
 import { getPreferredTheme } from "./darkmode";
+import $ from "jquery";
 import "./blogs";
 import { makeHeader, makeFooter } from "./headerFooter";
 

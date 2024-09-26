@@ -1,4 +1,5 @@
 import { marked } from "marked";
+import $ from "jquery";
 
 const authors = {
   andy: ["Andy Zhang", "primary"],
