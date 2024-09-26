@@ -15,6 +15,7 @@ function addMember(name, post, spool) {
   const elm = $("#index-members-showcase");
 
   import(`/assets/img/MEMBERS/${spool.toUpperCase()}.png`).then(function (m) {
+    console.log(m.default);
     elm.append(
       `<div class="col">
         <div class="card border-0 shadow-none">
@@ -23,7 +24,7 @@ function addMember(name, post, spool) {
               class="rounded-circle flex-shrink-0 me-3 fit-cover"
               width="130"
               height="130"
-              src="${m.default}"
+              src="${m.default.replace("png", "avif")}"
             />
             <div>
               <h5 class="fw-bolder text-primary mb-0">${name}</h5>
