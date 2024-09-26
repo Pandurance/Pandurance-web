@@ -28,7 +28,7 @@ function makeAuthor(name) {
 }
 
 function makeImage(name) {
-  return `https://github.com/Pandurance/Pandurance-blogs/raw/main/previews/${name}.png`;
+  return `https://github.com/Pandurance/Pandurance-blogs/raw/main/previews/${name}.avif`;
 }
 
 // https://stackoverflow.com/a/26744533/14868780
