@@ -20,6 +20,14 @@ h1 {
   color: var(--accent);
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} 
+
 :root {
   --accent: color(display-p3 0.831373 0.505882 0.011765 / 1);
   --bs-primary: color(display-p3 0.831373 0.505882 0.011765 / 1);
