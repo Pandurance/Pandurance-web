@@ -67,6 +67,9 @@ export function makeFooter() {
             </div>
             <div class="col">
               <a href="https://wa.me/message/4JUA7TSP72UJP1"><i class="bi bi-whatsapp h2"></i></a>
+            </div> 
+            <div class="col">
+              <a href="https://www.linkedin.com/in/pandurance-racing-09041b31b/"><i class="bi bi-linkedin h2"></i></a>
             </div>
           </div>
         </div>
