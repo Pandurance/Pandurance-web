@@ -19,8 +19,9 @@ async function getContent(name) {
     return;
   }
   const content = await response.text();
+  const html = marked.parse(content);
 
-  return marked.parse(content);
+  return html;
 }
 
 function makeAuthor(name) {
@@ -31,6 +32,11 @@ function makeAuthor(name) {
 
 function makeImage(name) {
   return `https://github.com/Pandurance/Pandurance-blogs/raw/main/previews/${name}.avif`;
+}
+
+function readingTime(str) {
+  const wordCount = str.trim().split(/\s+/).length;
+  return Math.round(wordCount / 200);
 }
 
 export async function getBlogs(populateCards = false) {
@@ -99,7 +105,11 @@ $(async function () {
     const date = global.obj[id]["date"];
     const elm = $(`#${id}`);
     elm.html(await getContent(id));
-    $(`<p class="text-muted">${makeAuthor(author)} ${date}</p>`).insertAfter($("div#blog-text > h1"));
+
+    const text = $(`#blog-text`).text();
+    $(`<p class="text-muted">${makeAuthor(author)} ${date} | ${readingTime(text)} min</p>`).insertAfter(
+      $("div#blog-text > h1"),
+    );
     var math = document.getElementById(`blog-text`);
     MathJax.typeset();
     return;

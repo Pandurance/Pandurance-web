@@ -61,7 +61,7 @@ const config = {
       },
       {
         test: /\.txt$/i,
-        use: 'raw-loader',
+        use: "raw-loader",
       },
       {
         test: /\.(eot|ttf|woff|woff2|png|jpg|gif)$/i,
@@ -69,8 +69,8 @@ const config = {
       },
       {
         test: /\.(svg)$/i,
-        type: 'asset',
-        // loader: 'svgo-loader'
+        type: "asset",
+        loader: "svgo-loader",
       },
 
       // css file: extract to css file with mini extract plugin
