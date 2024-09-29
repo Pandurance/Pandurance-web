@@ -86,7 +86,7 @@ export function makeFooter() {
   for (const obj of global.sponsorsList) {
     footerHtml += `
           <div class="col-md-3 align-self-center">
-            <a href="${obj.url}"><img src="${obj.imgName}" style="max-height: 4em" /></a>
+            <a href="${obj.url}"><img src="${obj.imgName}" alt="${obj.name} Logo" title="${obj.name} Logo" style="max-height: 4em" /></a>
           </div>
       `;
   }

@@ -25,6 +25,8 @@ function addMember(name, post, spool) {
               class="rounded-circle flex-shrink-0 me-3 fit-cover"
               width="130"
               height="130"
+              title="Image of ${name}"
+              alt="Image of ${name}"
               src="${m.default.replace("png", "avif")}"
             />
             <div>
@@ -55,7 +57,7 @@ async function addSponsor(name, url, imgName, desc) {
     <div class="col-lg-6">
       <div class="card">
         <div class="card-body p-4">
-          <img src="${m.default}" style="height: 100px" />
+          <img src="${m.default}" style="height: 100px" alt="${obj.name} Logo" title="${obj.name} Logo" />
           <h4 class="card-title"><a href="/about_sponsor?sid=${imgName}">${name}</a></h4>
           <p class="card-text">
             ${desc}
@@ -80,6 +82,7 @@ function addTool(name, url, imgUrl, type, desc) {
               class="img-fluid align-self-center"
               style="height: 5em;"
               src="${imgUrl}"
+              alt="${name} Logo" title="${name} Logo"
             />
             <div class="card-body p-4">
               <h4 class="card-title"><a href="${url}">${name}</a></h4>

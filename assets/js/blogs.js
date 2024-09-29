@@ -68,6 +68,8 @@ export async function getBlogs(populateCards = false) {
         <img
           class="card-img-top"
           style="object-fit: cover;"
+          alt="${title}"
+          title="${title}"
           src="${makeImage(key)}"
         />
         <div class="card-body p-4">

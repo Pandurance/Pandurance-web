@@ -11,7 +11,7 @@ $(function () {
       $("#sponsor-name").text(sponsor.name);
       $("#sponsor-text").text(text);
       $(`
-          <a href="${sponsor.url}"><img src="${sponsor.imgName}" style="max-height: 25em; margin: 5rem" /></a>
+          <a href="${sponsor.url}"><img src="${sponsor.imgName}" style="max-height: 25em; margin: 5rem" alt="${sponsor.name} Logo" title="${sponsor.name} Logo" /></a>
       `).insertBefore("#sponsor-text");
     });
   }
