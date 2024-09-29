@@ -70,7 +70,7 @@ const config = {
       {
         test: /\.(svg)$/i,
         type: "asset",
-        loader: "svgo-loader",
+        // loader: "svgo-loader",
       },
 
       // css file: extract to css file with mini extract plugin
