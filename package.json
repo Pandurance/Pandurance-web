@@ -5,11 +5,8 @@
     "datatables.net-buttons-bs5": "^3.1.2",
     "jquery": "^3.7.1",
     "marked": "^14.1.2",
-    "mathjax": "^3.2.2",
-    "mathjax-full": "^3.2.2",
     "mini-css-extract-plugin": "^2.9.1",
-    "purgecss": "^6.0.0",
-    "serve": "^14.2.3"
+    "purgecss": "^6.0.0"
   },
   "browser": {},
   "name": "pandurance-web",
@@ -18,7 +15,7 @@
   "main": "pages/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serve ./dist",
+    "start": "http-server ./dist",
     "format": "prettier . --write",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",

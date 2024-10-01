@@ -190,14 +190,6 @@ $(async function () {
   );
 
   addTool(
-    "Serve",
-    "https://npmjs.com/package/serve",
-    "https://github.com/vercel/serve/blob/main/media/banner.png?raw=true",
-    type.development,
-    "Serve is a local server that allows hot reloading, which accelerates the website development.",
-  );
-
-  addTool(
     "Bootstrap Studio",
     "https://bootstrapstudio.io",
     "https://bootstrapstudio.io/assets/img/logo_128.png",
@@ -211,6 +203,14 @@ $(async function () {
     "https://marked.js.org/img/logo-black.svg",
     type.layout,
     "Allows rendering Markdown content as HTML.",
+  );
+
+  addTool(
+    "MathJax",
+    "https://www.mathjax.org",
+    "https://www.mathjax.org/badge/mj-logo.svg",
+    type.layout,
+    "Allows rendering math formulae in HTML.",
   );
 
   import("./blogs");
