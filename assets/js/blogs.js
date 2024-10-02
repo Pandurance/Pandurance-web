@@ -74,7 +74,7 @@ export async function getBlogs(populateCards = false) {
         />
         <div class="card-body p-4">
           <h4 class="card-title"><a href="/blog?id=${key}">${title}</a></h4>
-          <p class="text-muted">${makeAuthor(name)} ${date}</p>
+          <p class="text-muted">${makeAuthor(name)} ${date} | ${readingTime(text)} min</p>
           <p class="card-text">${value["desc"]}
           </p>
         </div>
@@ -112,7 +112,8 @@ $(async function () {
     $(`<p class="text-muted">${makeAuthor(author)} ${date} | ${readingTime(text)} min</p>`).insertAfter(
       $("div#blog-text > h1"),
     );
-    var math = document.getElementById(`blog-text`);
+    
+    // Render all math formulae
     MathJax.typeset();
     return;
   }
