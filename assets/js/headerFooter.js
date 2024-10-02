@@ -13,6 +13,9 @@ export function makeHeader() {
             <li class="nav-item">
               <a class="nav-link active" href="blog.html">Blog</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="doc.html">Documents</a>
+            </li>
 
             <li class="nav-item dropdown">
               <a

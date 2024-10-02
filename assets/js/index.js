@@ -5,6 +5,7 @@ import "/assets/css/bs-theme-overrides.css";
 import { getPreferredTheme } from "./darkmode";
 import $ from "jquery";
 import { makeHeader, makeFooter } from "./headerFooter";
+import "./table";
 
 const type = {
   layout: ["primary", "Layout"],

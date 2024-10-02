@@ -1,15 +1,6 @@
 import { marked } from "marked";
 import $ from "jquery";
-import { getSearchParams } from "./util";
-
-const authors = {
-  andy: ["Andy Zhang", "primary"],
-  marcus: ["Marcus Hung", "secondary"],
-  elo: ["Ethan Lo", "danger"],
-  jack: ["Jack Tang", "success"],
-  magnus: ["Magnus Chan", "warning"],
-  zack: ["Magnus Chan", "info"],
-};
+import { getSearchParams, makeAuthor } from "./util";
 
 async function getContent(name) {
   const response = await fetch(`https://raw.githubusercontent.com/Pandurance/Pandurance-blogs/main/pages/${name}.md`);
@@ -22,12 +13,6 @@ async function getContent(name) {
   const html = marked.parse(content);
 
   return html;
-}
-
-function makeAuthor(name) {
-  const authorName = authors[name][0];
-  const bgColor = authors[name][1];
-  return `<p class="badge rounded-pill text-bg-${bgColor}">${authorName}</p>`;
 }
 
 function makeImage(name) {
@@ -74,7 +59,7 @@ export async function getBlogs(populateCards = false) {
         />
         <div class="card-body p-4">
           <h4 class="card-title"><a href="/blog?id=${key}">${title}</a></h4>
-          <p class="text-muted">${makeAuthor(name)} ${date} | ${readingTime(text)} min</p>
+          <p class="text-muted">${makeAuthor(name)} ${date} | ${readingTime(content)} min</p>
           <p class="card-text">${value["desc"]}
           </p>
         </div>
@@ -112,7 +97,7 @@ $(async function () {
     $(`<p class="text-muted">${makeAuthor(author)} ${date} | ${readingTime(text)} min</p>`).insertAfter(
       $("div#blog-text > h1"),
     );
-    
+
     // Render all math formulae
     MathJax.typeset();
     return;
