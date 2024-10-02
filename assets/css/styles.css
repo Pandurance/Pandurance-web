@@ -24,15 +24,7 @@ a {
   text-decoration: none;
 }
 
-a.btn {
-  text-decoration: none;
-}
-
 a:hover {
-  text-decoration: underline;
-}
-
-a.btn:hover {
   text-decoration: none !important;
 }
 
