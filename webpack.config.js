@@ -10,7 +10,7 @@ const isProduction = process.env.NODE_ENV == "production";
 
 const stylesHandler = "style-loader";
 
-let htmlPageNames = ["blog", "about_site", "doc", "about_sponsor", "error"];
+let htmlPageNames = ["blog", "about_site", "doc", "about_sponsor", "copyright", "error"];
 
 let multipleHtmlPlugins = htmlPageNames.map((name) => {
   return new HtmlWebpackPlugin({
