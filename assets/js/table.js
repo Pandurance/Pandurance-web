@@ -1,6 +1,7 @@
 import DataTable from "datatables.net-bs5";
 import "datatables.net-buttons-bs5";
 import "datatables.net-buttons/js/buttons.colVis.mjs";
+import "/assets/css/bs-theme-overrides.css";
 import $ from "jquery";
 import { makeAuthor, parseDate, getSearchParams, cyrb53 } from "./util";
 
