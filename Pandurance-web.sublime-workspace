@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"--bs-",
+				"--bs-primary"
+			],
+			[
 				"font",
 				"font-family"
 			],
@@ -502,23 +514,175 @@
 			[
 				"t",
 				"types"
-			],
-			[
-				"ST",
-				"StatusBool"
-			],
-			[
-				"Stat",
-				"StatusType"
-			],
-			[
-				"root",
-				"rootResult"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/coder/Documents/Pandurance-docs/index.json",
+			"settings":
+			{
+				"buffer_size": 1354,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					6,
+					1,
+					"duplicate_line",
+					null,
+					"AQAAAKoEAAAAAAAARQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqgQAAAAAAAAPBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": "WHA"
+					},
+					"BAAAALEEAAAAAAAAsgQAAAAAAAAAAAAAsgQAAAAAAACyBAAAAAAAAAMAAABXSESyBAAAAAAAALMEAAAAAAAAAAAAALMEAAAAAAAAtAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsQQAAAAAAAC0BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					2,
+					"left_delete",
+					null,
+					"AgAAAMsEAAAAAAAAywQAAAAAAAAWAAAAaGVlbCBUZWNobmljYWwgRHJhd2luZ8oEAAAAAAAAygQAAAAAAAABAAAAVw",
+					"AQAAAAAAAAABAAAAywQAAAAAAADhBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "Wheel"
+					},
+					"BQAAAMoEAAAAAAAAywQAAAAAAAAAAAAAywQAAAAAAADMBAAAAAAAAAAAAADMBAAAAAAAAM0EAAAAAAAAAAAAAM0EAAAAAAAAzgQAAAAAAAAAAAAAzgQAAAAAAADPBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAygQAAAAAAADKBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": " Res"
+					},
+					"BAAAAM8EAAAAAAAA0AQAAAAAAAAAAAAA0AQAAAAAAADRBAAAAAAAAAAAAADRBAAAAAAAANIEAAAAAAAAAAAAANIEAAAAAAAA0wQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzwQAAAAAAADPBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert_completion",
+					{
+						"completion": "Research",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "Research"
+					},
+					"AgAAANAEAAAAAAAA0AQAAAAAAAADAAAAUmVz0AQAAAAAAADYBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0wQAAAAAAADTBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": " a"
+					},
+					"AgAAANgEAAAAAAAA2QQAAAAAAAAAAAAA2QQAAAAAAADaBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2AQAAAAAAADYBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"left_delete",
+					null,
+					"AQAAANkEAAAAAAAA2QQAAAAAAAABAAAAYQ",
+					"AQAAAAAAAAABAAAA2gQAAAAAAADaBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "&"
+					},
+					"AQAAANkEAAAAAAAA2gQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2QQAAAAAAADZBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": " Analysus"
+					},
+					"CQAAANoEAAAAAAAA2wQAAAAAAAAAAAAA2wQAAAAAAADcBAAAAAAAAAAAAADcBAAAAAAAAN0EAAAAAAAAAAAAAN0EAAAAAAAA3gQAAAAAAAAAAAAA3gQAAAAAAADfBAAAAAAAAAAAAADfBAAAAAAAAOAEAAAAAAAAAAAAAOAEAAAAAAAA4QQAAAAAAAAAAAAA4QQAAAAAAADiBAAAAAAAAAAAAADiBAAAAAAAAOMEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2gQAAAAAAADaBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					2,
+					"left_delete",
+					null,
+					"AgAAAOIEAAAAAAAA4gQAAAAAAAABAAAAc+EEAAAAAAAA4QQAAAAAAAABAAAAdQ",
+					"AQAAAAAAAAABAAAA4wQAAAAAAADjBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "is"
+					},
+					"AgAAAOEEAAAAAAAA4gQAAAAAAAAAAAAA4gQAAAAAAADjBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4QQAAAAAAADhBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"left_delete",
+					null,
+					"AQAAAP4EAAAAAAAA/gQAAAAAAAABAAAAMQ",
+					"AQAAAAAAAAABAAAA/wQAAAAAAAD/BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"AQAAAP4EAAAAAAAA/wQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/gQAAAAAAAD+BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"left_delete",
+					null,
+					"AQAAADUFAAAAAAAANQUAAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAANgUAAAAAAAA2BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "7"
+					},
+					"AQAAADUFAAAAAAAANgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANQUAAAAAAAA1BQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -1048,22 +1212,29 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/coder/Documents/Pandurance-web"
+		"/Users/coder/Documents/Pandurance-web",
+		"/Users/coder/Documents/Pandurance-web/assets",
+		"/Users/coder/Documents/Pandurance-web/assets/css",
+		"/Users/coder/Documents/Pandurance-web/assets/js",
+		"/Users/coder/Documents/Pandurance-blogs",
+		"/Users/coder/Documents/Pandurance-blogs/pages"
 	],
 	"file_history":
 	[
+		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR5.html",
+		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR6.html",
+		"/Users/coder/Documents/Pandurance-blogs/pages/73219edf-a151-4a40-afd7-8685f2bb11e5.md",
+		"/Users/coder/Documents/Pandurance-web/assets/js/table.js",
 		"/Users/coder/Documents/Pandurance-docs/index.json",
+		"/Users/coder/Documents/Pandurance-web/assets/css/bs-theme-overrides.css",
 		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR2.html",
 		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR1.html",
-		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR5.html",
 		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR4.html",
 		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR3.html",
-		"/Users/coder/Documents/Pandurance-blogs/pages/73219edf-a151-4a40-afd7-8685f2bb11e5.md",
 		"/Users/coder/Documents/Pandurance-web/assets/js/blogs.js",
 		"/Users/coder/Documents/Pandurance-web/Pandurance-web.sublime-project",
 		"/Users/coder/Documents/Pandurance-web/package-lock.json",
 		"/Users/coder/Documents/Pandurance-web/pages/doc.html",
-		"/Users/coder/Documents/Pandurance-web/assets/js/table.js",
 		"/Users/coder/Documents/Pandurance-web/assets/js/util.js",
 		"/Users/coder/Documents/Pandurance-web/assets/css/styles.css",
 		"/Users/coder/Documents/Pandurance-web/webpack.config.js",
@@ -1097,7 +1268,6 @@
 		"/Users/coder/Documents/Pandurance-web/a/blog.html",
 		"/Users/coder/Documents/Pandurance-web/.prettierignore",
 		"/Users/coder/Documents/Pandurance-web/assets/js/types/sponsor.js",
-		"/Users/coder/Documents/Pandurance-web/assets/css/bs-theme-overrides.css",
 		"/Users/coder/Documents/Pandurance-web/index.html",
 		"/Users/coder/Documents/Pandurance-web/.github/workflows/azure-static-web-apps-blue-sea-0ffdfc400.yml",
 		"/Users/coder/Documents/Pandurance-web/blog.html",
@@ -1178,8 +1348,7 @@
 		"/Users/coder/Desktop/Steppable/src/atan2/atan2.cpp",
 		"/Users/coder/Desktop/Steppable/src/log/log.cpp",
 		"/Users/coder/Desktop/Steppable/src/symbols.cpp",
-		"/Users/coder/Desktop/a.txt",
-		"/Users/coder/Desktop/Steppable/src/constants.cpp"
+		"/Users/coder/Desktop/a.txt"
 	],
 	"find":
 	{
@@ -1275,6 +1444,39 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/coder/Documents/Pandurance-docs/index.json",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1334,
+								1334
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///Users/coder/Documents/Pandurance-docs/index.json",
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 480.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],

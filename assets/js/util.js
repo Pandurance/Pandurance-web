@@ -4,7 +4,7 @@ const authors = {
   elo: ["Ethan Lo", "danger"],
   jack: ["Jack Tang", "success"],
   magnus: ["Magnus Chan", "warning"],
-  zack: ["Magnus Chan", "info"],
+  zack: ["Zack Leung", "info"],
 };
 
 // Mapping of month abbreviations to numerical representation
