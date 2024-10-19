@@ -520,166 +520,34 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/coder/Documents/Pandurance-docs/index.json",
+			"file": "assets/js/util.js",
 			"settings":
 			{
-				"buffer_size": 1354,
+				"buffer_size": 1672,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
 				[
 					6,
 					1,
-					"duplicate_line",
-					null,
-					"AQAAAKoEAAAAAAAARQUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAqgQAAAAAAAAPBAAAAAAAAAAAAAAAAPC/"
+					"insert",
+					{
+						"characters": "Zack"
+					},
+					"BQAAAM4AAAAAAAAAzwAAAAAAAAAAAAAAzwAAAAAAAADPAAAAAAAAAAsAAABNYWdudXMgQ2hhbs8AAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADRAAAAAAAAAAAAAADRAAAAAAAAANIAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2QAAAAAAAADOAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					12,
+					7,
 					1,
 					"insert",
 					{
-						"characters": "WHA"
+						"characters": " Leung"
 					},
-					"BAAAALEEAAAAAAAAsgQAAAAAAAAAAAAAsgQAAAAAAACyBAAAAAAAAAMAAABXSESyBAAAAAAAALMEAAAAAAAAAAAAALMEAAAAAAAAtAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAsQQAAAAAAAC0BAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					2,
-					"left_delete",
-					null,
-					"AgAAAMsEAAAAAAAAywQAAAAAAAAWAAAAaGVlbCBUZWNobmljYWwgRHJhd2luZ8oEAAAAAAAAygQAAAAAAAABAAAAVw",
-					"AQAAAAAAAAABAAAAywQAAAAAAADhBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"insert",
-					{
-						"characters": "Wheel"
-					},
-					"BQAAAMoEAAAAAAAAywQAAAAAAAAAAAAAywQAAAAAAADMBAAAAAAAAAAAAADMBAAAAAAAAM0EAAAAAAAAAAAAAM0EAAAAAAAAzgQAAAAAAAAAAAAAzgQAAAAAAADPBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAygQAAAAAAADKBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					17,
-					1,
-					"insert",
-					{
-						"characters": " Res"
-					},
-					"BAAAAM8EAAAAAAAA0AQAAAAAAAAAAAAA0AQAAAAAAADRBAAAAAAAAAAAAADRBAAAAAAAANIEAAAAAAAAAAAAANIEAAAAAAAA0wQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAzwQAAAAAAADPBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					18,
-					1,
-					"insert_completion",
-					{
-						"completion": "Research",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "Research"
-					},
-					"AgAAANAEAAAAAAAA0AQAAAAAAAADAAAAUmVz0AQAAAAAAADYBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA0wQAAAAAAADTBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					19,
-					1,
-					"insert",
-					{
-						"characters": " a"
-					},
-					"AgAAANgEAAAAAAAA2QQAAAAAAAAAAAAA2QQAAAAAAADaBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2AQAAAAAAADYBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					20,
-					1,
-					"left_delete",
-					null,
-					"AQAAANkEAAAAAAAA2QQAAAAAAAABAAAAYQ",
-					"AQAAAAAAAAABAAAA2gQAAAAAAADaBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					21,
-					1,
-					"insert",
-					{
-						"characters": "&"
-					},
-					"AQAAANkEAAAAAAAA2gQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2QQAAAAAAADZBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					22,
-					1,
-					"insert",
-					{
-						"characters": " Analysus"
-					},
-					"CQAAANoEAAAAAAAA2wQAAAAAAAAAAAAA2wQAAAAAAADcBAAAAAAAAAAAAADcBAAAAAAAAN0EAAAAAAAAAAAAAN0EAAAAAAAA3gQAAAAAAAAAAAAA3gQAAAAAAADfBAAAAAAAAAAAAADfBAAAAAAAAOAEAAAAAAAAAAAAAOAEAAAAAAAA4QQAAAAAAAAAAAAA4QQAAAAAAADiBAAAAAAAAAAAAADiBAAAAAAAAOMEAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2gQAAAAAAADaBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					23,
-					2,
-					"left_delete",
-					null,
-					"AgAAAOIEAAAAAAAA4gQAAAAAAAABAAAAc+EEAAAAAAAA4QQAAAAAAAABAAAAdQ",
-					"AQAAAAAAAAABAAAA4wQAAAAAAADjBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					24,
-					1,
-					"insert",
-					{
-						"characters": "is"
-					},
-					"AgAAAOEEAAAAAAAA4gQAAAAAAAAAAAAA4gQAAAAAAADjBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA4QQAAAAAAADhBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					29,
-					1,
-					"left_delete",
-					null,
-					"AQAAAP4EAAAAAAAA/gQAAAAAAAABAAAAMQ",
-					"AQAAAAAAAAABAAAA/wQAAAAAAAD/BAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					30,
-					1,
-					"insert",
-					{
-						"characters": "2"
-					},
-					"AQAAAP4EAAAAAAAA/wQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA/gQAAAAAAAD+BAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					44,
-					1,
-					"left_delete",
-					null,
-					"AQAAADUFAAAAAAAANQUAAAAAAAABAAAANQ",
-					"AQAAAAAAAAABAAAANgUAAAAAAAA2BQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					45,
-					1,
-					"insert",
-					{
-						"characters": "7"
-					},
-					"AQAAADUFAAAAAAAANgUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANQUAAAAAAAA1BQAAAAAAAAAAAAAAAPC/"
+					"BgAAANIAAAAAAAAA0wAAAAAAAAAAAAAA0wAAAAAAAADUAAAAAAAAAAAAAADUAAAAAAAAANUAAAAAAAAAAAAAANUAAAAAAAAA1gAAAAAAAAAAAAAA1gAAAAAAAADXAAAAAAAAAAAAAADXAAAAAAAAANgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0gAAAAAAAADSAAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		}
@@ -1221,11 +1089,11 @@
 	],
 	"file_history":
 	[
+		"/Users/coder/Documents/Pandurance-docs/index.json",
 		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR5.html",
 		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR6.html",
 		"/Users/coder/Documents/Pandurance-blogs/pages/73219edf-a151-4a40-afd7-8685f2bb11e5.md",
 		"/Users/coder/Documents/Pandurance-web/assets/js/table.js",
-		"/Users/coder/Documents/Pandurance-docs/index.json",
 		"/Users/coder/Documents/Pandurance-web/assets/css/bs-theme-overrides.css",
 		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR2.html",
 		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR1.html",
@@ -1446,31 +1314,31 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/coder/Documents/Pandurance-docs/index.json",
+					"file": "assets/js/util.js",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1354,
+						"buffer_size": 1672,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1334,
-								1334
+								216,
+								216
 							]
 						],
 						"settings":
 						{
-							"lsp_uri": "file:///Users/coder/Documents/Pandurance-docs/index.json",
-							"syntax": "Packages/JSON/JSON.sublime-syntax",
-							"tab_size": 4,
+							"lsp_uri": "file:///Users/coder/Documents/Pandurance-web/assets/js/util.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 480.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

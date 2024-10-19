@@ -147,6 +147,13 @@ $(async function () {
     "We would like to express our sincere gratitude to our sponsor, Ansys, for supporting us by providing their \
     simulation design tool, Ansys Discovery, to help us develop our car.",
   );
+  await addSponsor(
+    "F1 Bearings",
+    "https://www.f1bearings.com",
+    "F1B",
+    "We would like to thank our sponsor, F1 Bearings, for supporting us technically in the F1 in schools Hong Kong and \
+    Macau Region Professional Class Competition.",
+  );
 
   addTool(
     "Bootstrap",
