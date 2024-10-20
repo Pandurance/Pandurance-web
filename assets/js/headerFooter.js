@@ -63,6 +63,9 @@ export function makeFooter() {
               <a href="https://instagram.com/panduranceracing"><i class="bi bi-instagram h2"></i></a>
             </div>
             <div class="col">
+              <a href="https://www.threads.net/@panduranceracing"><i class="bi bi-threads h2"></i></a>
+            </div>
+            <div class="col">
               <a href="https://github.com/pandurance"><i class="bi bi-github h2"></i></a>
             </div>
             <div class="col">
