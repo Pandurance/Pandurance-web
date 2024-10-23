@@ -60,11 +60,15 @@ const config = {
         use: [stylesHandler, "css-loader"],
       },
       {
-        test: /\.txt$/i,
+        test: /\.(txt)$/i,
         use: "raw-loader",
       },
       {
-        test: /\.(eot|ttf|woff|woff2|png|jpg|gif)$/i,
+        test: /\.(ttf)$/i,
+        use: "url-loader",
+      },
+      {
+        test: /\.(eot|woff|woff2|png|jpg|gif)$/i,
         type: "asset",
       },
       {
