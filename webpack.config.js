@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const WorkboxWebpackPlugin = require("workbox-webpack-plugin");
 const ImageminAvifWebpackPlugin = require("imagemin-avif-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const isProduction = process.env.NODE_ENV == "production";
 
@@ -14,6 +15,7 @@ let htmlPageNames = ["blog", "about_site", "doc", "about_sponsor", "copyright", 
 
 let multipleHtmlPlugins = htmlPageNames.map((name) => {
   return new HtmlWebpackPlugin({
+    favicon: "./assets/img/favicon/favicon.ico",
     template: `./pages/${name}.html`, // relative path to the HTML files
     filename: `${name}.html`, // output HTML files
   });
@@ -26,6 +28,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      favicon: "./assets/img/favicon/favicon.ico",
       template: path.resolve(__dirname, "/pages/index.html"),
     }),
 
@@ -51,6 +54,9 @@ const config = {
       new MiniCssExtractPlugin({
         filename: "[name].css",
         chunkFilename: "[id].css",
+      }),
+      new CopyWebpackPlugin({
+        patterns: [{ from: "./assets/img/favicon" }],
       }),
     ]),
   module: {
