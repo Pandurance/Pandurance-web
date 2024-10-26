@@ -3,8 +3,11 @@ import $ from "jquery";
 export function makeHeader() {
   $(".navbar").html(`
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">Pandurance</a
-        ><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+        <a class="navbar-brand" href="/">
+        <img src="/favicon.svg" width="75" height="75" alt=""></img>
+        Pandurance
+        </a>
+        <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
           <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navcol-1">
