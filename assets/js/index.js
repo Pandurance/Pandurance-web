@@ -154,6 +154,13 @@ $(async function () {
     "We would like to thank our sponsor, F1 Bearings, for supporting us technically in the F1 in schools Hong Kong and \
     Macau Region Professional Class Competition.",
   );
+  await addSponsor(
+    "CMGE",
+    "https://cmge.com",
+    "CMGE",
+    "CMGE is a leading international IP-oriented game operator, providing high-quality IP-oriented games through \
+    independent R&D and co-development.",
+  );
 
   addTool(
     "Bootstrap",
