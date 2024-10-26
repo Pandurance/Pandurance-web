@@ -520,35 +520,232 @@
 	"buffers":
 	[
 		{
-			"file": "assets/js/util.js",
+			"file": "assets/js/sponsor.js",
 			"settings":
 			{
-				"buffer_size": 1672,
+				"buffer_size": 639,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
 				[
-					6,
+					4,
 					1,
-					"insert",
-					{
-						"characters": "Zack"
-					},
-					"BQAAAM4AAAAAAAAAzwAAAAAAAAAAAAAAzwAAAAAAAADPAAAAAAAAAAsAAABNYWdudXMgQ2hhbs8AAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADRAAAAAAAAAAAAAADRAAAAAAAAANIAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2QAAAAAAAADOAAAAAAAAAAAAAAAAAPC/"
+					"left_delete",
+					null,
+					"AQAAAOwBAAAAAAAA7AEAAAAAAAAEAAAAbWF4LQ",
+					"AQAAAAAAAAABAAAA8AEAAAAAAADsAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "assets/js/index.js",
+			"settings":
+			{
+				"buffer_size": 7430,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"duplicate_line",
+					null,
+					"AQAAAO0TAAAAAAAA8hQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7RMAAAAAAADoEgAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					7,
+					8,
 					1,
 					"insert",
 					{
-						"characters": " Leung"
+						"characters": "CMGE"
 					},
-					"BgAAANIAAAAAAAAA0wAAAAAAAAAAAAAA0wAAAAAAAADUAAAAAAAAAAAAAADUAAAAAAAAANUAAAAAAAAAAAAAANUAAAAAAAAA1gAAAAAAAAAAAAAA1gAAAAAAAADXAAAAAAAAAAAAAADXAAAAAAAAANgAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA0gAAAAAAAADSAAAAAAAAAAAAAAAAAPC/"
+					"BQAAAAcUAAAAAAAACBQAAAAAAAAAAAAACBQAAAAAAAAIFAAAAAAAAAsAAABGMSBCZWFyaW5ncwgUAAAAAAAACRQAAAAAAAAAAAAACRQAAAAAAAAKFAAAAAAAAAAAAAAKFAAAAAAAAAsUAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABxQAAAAAAAASFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "CMGE"
+					},
+					"BQAAADUUAAAAAAAANhQAAAAAAAAAAAAANhQAAAAAAAA2FAAAAAAAAAMAAABGMUI2FAAAAAAAADcUAAAAAAAAAAAAADcUAAAAAAAAOBQAAAAAAAAAAAAAOBQAAAAAAAA5FAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANRQAAAAAAAA4FAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "cmge"
+					},
+					"BQAAAB8UAAAAAAAAIBQAAAAAAAAAAAAAIBQAAAAAAAAgFAAAAAAAAAoAAABmMWJlYXJpbmdzIBQAAAAAAAAhFAAAAAAAAAAAAAAhFAAAAAAAACIUAAAAAAAAAAAAACIUAAAAAAAAIxQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHxQAAAAAAAApFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"paste",
+					null,
+					"AgAAABMUAAAAAAAAIxQAAAAAAAAAAAAAIxQAAAAAAAAjFAAAAAAAABQAAABodHRwczovL3d3dy5jbWdlLmNvbQ",
+					"AQAAAAAAAAABAAAAExQAAAAAAAAnFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"paste",
+					null,
+					"AgAAADcUAAAAAAAAxhQAAAAAAAAAAAAAxhQAAAAAAADGFAAAAAAAAKQAAABXZSB3b3VsZCBsaWtlIHRvIHRoYW5rIG91ciBzcG9uc29yLCBGMSBCZWFyaW5ncywgZm9yIHN1cHBvcnRpbmcgdXMgdGVjaG5pY2FsbHkgaW4gdGhlIEYxIGluIHNjaG9vbHMgSG9uZyBLb25nIGFuZCBcCiAgICBNYWNhdSBSZWdpb24gUHJvZmVzc2lvbmFsIENsYXNzIENvbXBldGl0aW9uLg",
+					"AQAAAAAAAAABAAAA2xQAAAAAAAA3FAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"insert",
+					{
+						"characters": "\\"
+					},
+					"AQAAAKMUAAAAAAAApBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoxQAAAAAAACjFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAKQUAAAAAAAApRQAAAAAAAAAAAAApRQAAAAAAACpFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApBQAAAAAAACkFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					74,
+					1,
+					"insert",
+					{
+						"characters": "]"
+					},
+					"AQAAALQFAAAAAAAAtQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtAUAAAAAAAC0BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					75,
+					1,
+					"left_delete",
+					null,
+					"AQAAALQFAAAAAAAAtAUAAAAAAAABAAAAXQ",
+					"AQAAAAAAAAABAAAAtQUAAAAAAAC1BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					76,
+					1,
+					"insert",
+					{
+						"characters": "\nconsole.log"
+					},
+					"DQAAALQFAAAAAAAAtQUAAAAAAAAAAAAAtQUAAAAAAAC3BQAAAAAAAAAAAAC3BQAAAAAAALgFAAAAAAAAAAAAALgFAAAAAAAAuQUAAAAAAAAAAAAAuQUAAAAAAAC6BQAAAAAAAAAAAAC6BQAAAAAAALsFAAAAAAAAAAAAALsFAAAAAAAAvAUAAAAAAAAAAAAAvAUAAAAAAAC9BQAAAAAAAAAAAAC9BQAAAAAAAL4FAAAAAAAAAAAAAL4FAAAAAAAAvwUAAAAAAAAAAAAAvwUAAAAAAADABQAAAAAAAAAAAADABQAAAAAAAMEFAAAAAAAAAAAAAMEFAAAAAAAAwgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtAUAAAAAAAC0BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					77,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAMIFAAAAAAAAxAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwgUAAAAAAADCBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					78,
+					1,
+					"insert",
+					{
+						"characters": "name"
+					},
+					"BAAAAMMFAAAAAAAAxAUAAAAAAAAAAAAAxAUAAAAAAADFBQAAAAAAAAAAAADFBQAAAAAAAMYFAAAAAAAAAAAAAMYFAAAAAAAAxwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwwUAAAAAAADDBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					84,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAMgFAAAAAAAAyQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyAUAAAAAAADIBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					90,
+					1,
+					"duplicate_line",
+					null,
+					"AQAAAMoFAAAAAAAA3wUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyQUAAAAAAADJBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					95,
+					1,
+					"insert",
+					{
+						"characters": "Hello"
+					},
+					"BgAAANgFAAAAAAAA2QUAAAAAAAAAAAAA2QUAAAAAAADZBQAAAAAAAAQAAABuYW1l2QUAAAAAAADaBQAAAAAAAAAAAADaBQAAAAAAANsFAAAAAAAAAAAAANsFAAAAAAAA3AUAAAAAAAAAAAAA3AUAAAAAAADdBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2AUAAAAAAADcBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					96,
+					5,
+					"left_delete",
+					null,
+					"BQAAANwFAAAAAAAA3AUAAAAAAAABAAAAb9sFAAAAAAAA2wUAAAAAAAABAAAAbNoFAAAAAAAA2gUAAAAAAAABAAAAbNkFAAAAAAAA2QUAAAAAAAABAAAAZdgFAAAAAAAA2AUAAAAAAAABAAAASA",
+					"AQAAAAAAAAABAAAA3QUAAAAAAADdBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					97,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAANgFAAAAAAAA2gUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2AUAAAAAAADYBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					98,
+					1,
+					"insert",
+					{
+						"characters": "A"
+					},
+					"AQAAANkFAAAAAAAA2gUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2QUAAAAAAADZBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					104,
+					1,
+					"left_delete",
+					null,
+					"AQAAALQFAAAAAAAAtAUAAAAAAAApAAAACiAgY29uc29sZS5sb2cobmFtZSk7CiAgY29uc29sZS5sb2coIkEiKTs",
+					"AQAAAAAAAAABAAAA3QUAAAAAAAC0BQAAAAAAAAAAAAAAAPC/"
 				]
+			]
+		},
+		{
+			"file": "pages/sponsors/CMGE.txt",
+			"settings":
+			{
+				"buffer_size": 500,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
 			]
 		}
 	],
@@ -1082,14 +1279,33 @@
 	[
 		"/Users/coder/Documents/Pandurance-web",
 		"/Users/coder/Documents/Pandurance-web/assets",
-		"/Users/coder/Documents/Pandurance-web/assets/css",
+		"/Users/coder/Documents/Pandurance-web/assets/img",
+		"/Users/coder/Documents/Pandurance-web/assets/img/favicon",
+		"/Users/coder/Documents/Pandurance-web/assets/img/SPONSORS",
 		"/Users/coder/Documents/Pandurance-web/assets/js",
+		"/Users/coder/Documents/Pandurance-web/pages",
+		"/Users/coder/Documents/Pandurance-web/pages/sponsors",
 		"/Users/coder/Documents/Pandurance-blogs",
 		"/Users/coder/Documents/Pandurance-blogs/pages"
 	],
 	"file_history":
 	[
+		"/Users/coder/Documents/Pandurance-web/assets/js/headerFooter.js",
+		"/Users/coder/Documents/Pandurance-web/pages/sponsors/CMGE.txt",
+		"/Users/coder/Documents/Pandurance-web/webpack.config.js",
+		"/Users/coder/Documents/Pandurance-web/assets/css/styles.css",
 		"/Users/coder/Documents/Pandurance-docs/index.json",
+		"/Users/coder/Documents/Pandurance-web/assets/fonts/fontbase64.txt",
+		"/Users/coder/Documents/Pandurance-web/assets/js/index.js",
+		"/Users/coder/Documents/Pandurance-web/pages/index.html",
+		"/Users/coder/Documents/Pandurance-web/pages/error.html",
+		"/Users/coder/Documents/Pandurance-web/pages/doc.html",
+		"/Users/coder/Documents/Pandurance-web/pages/copyright.html",
+		"/Users/coder/Documents/Pandurance-web/pages/blog.html",
+		"/Users/coder/Documents/Pandurance-web/pages/about_sponsor.html",
+		"/Users/coder/Documents/Pandurance-web/pages/about_site.html",
+		"/Users/coder/Documents/Pandurance-web/pages/sponsors/F1B.txt",
+		"/Users/coder/Documents/Pandurance-web/assets/js/util.js",
 		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR5.html",
 		"/Users/coder/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/WR6.html",
 		"/Users/coder/Documents/Pandurance-blogs/pages/73219edf-a151-4a40-afd7-8685f2bb11e5.md",
@@ -1102,18 +1318,10 @@
 		"/Users/coder/Documents/Pandurance-web/assets/js/blogs.js",
 		"/Users/coder/Documents/Pandurance-web/Pandurance-web.sublime-project",
 		"/Users/coder/Documents/Pandurance-web/package-lock.json",
-		"/Users/coder/Documents/Pandurance-web/pages/doc.html",
-		"/Users/coder/Documents/Pandurance-web/assets/js/util.js",
-		"/Users/coder/Documents/Pandurance-web/assets/css/styles.css",
-		"/Users/coder/Documents/Pandurance-web/webpack.config.js",
-		"/Users/coder/Documents/Pandurance-web/pages/copyright.html",
-		"/Users/coder/Documents/Pandurance-web/assets/js/headerFooter.js",
 		"/Users/coder/Documents/Pandurance-web/assets/js/tables.js",
-		"/Users/coder/Documents/Pandurance-web/assets/js/index.js",
 		"/Volumes/FAT/F1 in Schools/PROFESSIONAL CLASS/DOCUMENTS/DCS.md",
 		"/Users/coder/Documents/Pandurance-web/assets/js/sponsor.js",
 		"/Users/coder/Library/Application Support/Sublime Text/Packages/User/WakaTime.sublime-settings",
-		"/Users/coder/Documents/Pandurance-web/pages/about_sponsor.html",
 		"/Users/coder/Documents/Pandurance-web/assets/img/SPONSORS/ANSYS.svg",
 		"/Users/coder/Documents/Pandurance-web/pages/sponsors/SJC.txt",
 		"/Users/coder/Documents/Pandurance-web/pages/sponsors/ANSYS.txt",
@@ -1121,12 +1329,8 @@
 		"/Users/coder/Documents/Pandurance-web/pages/sponsors/4e6589fa-35cc-458b-9d32-104bbf5856d3.txt",
 		"/Users/coder/Documents/Pandurance-web/pages/sponsors/ad398309-4beb-44f6-93be-854a73493f1a.txt",
 		"/Users/coder/Documents/Pandurance-blogs/index.json",
-		"/Users/coder/Documents/Pandurance-web/pages/index.html",
 		"/Users/coder/Documents/Pandurance-blogs/pages/4570aa4d-73b6-478a-ae8b-4d7e218e65e0.md",
 		"/Users/coder/Documents/Pandurance-web/.gitignore",
-		"/Users/coder/Documents/Pandurance-web/pages/blog.html",
-		"/Users/coder/Documents/Pandurance-web/pages/about_site.html",
-		"/Users/coder/Documents/Pandurance-web/pages/error.html",
 		"/Users/coder/Documents/Pandurance-web/package.json",
 		"/Users/coder/Documents/Pandurance-web/staticwebapp.config.json",
 		"/Users/coder/Documents/Pandurance-blogs/pages/35f10f69-1cde-4f3a-afa4-93002ae39659.md",
@@ -1213,10 +1417,7 @@
 		"/Users/coder/Desktop/Steppable/lib/CMakeLists.txt",
 		"/Users/coder/Desktop/Steppable/src/atan2/atan2Report.cpp",
 		"/Users/coder/Desktop/Steppable/src/trig/trig.cpp",
-		"/Users/coder/Desktop/Steppable/src/atan2/atan2.cpp",
-		"/Users/coder/Desktop/Steppable/src/log/log.cpp",
-		"/Users/coder/Desktop/Steppable/src/symbols.cpp",
-		"/Users/coder/Desktop/a.txt"
+		"/Users/coder/Desktop/Steppable/src/atan2/atan2.cpp"
 	],
 	"find":
 	{
@@ -1235,6 +1436,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"50",
+			"30",
 			"coder",
 			"danger",
 			"button",
@@ -1314,25 +1517,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "assets/js/util.js",
-					"selected": true,
+					"file": "assets/js/sponsor.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1672,
+						"buffer_size": 639,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								216,
-								216
+								492,
+								492
 							]
 						],
 						"settings":
 						{
-							"lsp_uri": "file:///Users/coder/Documents/Pandurance-web/assets/js/util.js",
+							"lsp_uri": "file:///Users/coder/Documents/Pandurance-web/assets/js/sponsor.js",
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1341,7 +1543,70 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/js/index.js",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1595,
+								1595
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///Users/coder/Documents/Pandurance-web/assets/js/index.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1100.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "pages/sponsors/CMGE.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								500
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///Users/coder/Documents/Pandurance-web/pages/sponsors/CMGE.txt",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"stack_multiselect": false,
 					"type": "text"
 				}
