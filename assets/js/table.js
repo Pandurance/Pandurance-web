@@ -48,10 +48,10 @@ async function processDoc(id) {
 }
 
 window.goToDocPDF = function () {
-//   const pwd = $("#pwd").val();
-//   const pwdHashed = cyrb53(pwd);
-//   if (pwdHashed === window.baheNhhNKTijQvr) {
-    window.location.href = `https://github.com/Pandurance/Pandurance-docs/raw/refs/heads/main/doc/${window.KbSLmoOmRhImzYk}.pdf`;
+  //   const pwd = $("#pwd").val();
+  //   const pwdHashed = cyrb53(pwd);
+  //   if (pwdHashed === window.baheNhhNKTijQvr) {
+  window.location.href = `https://github.com/Pandurance/Pandurance-docs/raw/refs/heads/main/doc/${window.KbSLmoOmRhImzYk}.pdf`;
   // } else {
   //   $("#fail").text("Incorrect password.");
   // }

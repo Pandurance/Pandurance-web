@@ -71,7 +71,7 @@ const config = {
       },
       {
         test: /\.(eot|woff|woff2|png|jpg|gif|ttf|avif)$/i,
-        type: "asset/resource"
+        type: "asset/resource",
       },
       {
         test: /\.(svg)$/i,
