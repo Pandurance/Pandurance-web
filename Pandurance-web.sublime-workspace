@@ -520,6 +520,30 @@
 	"buffers":
 	[
 		{
+			"contents": "Package Control Messages\n========================\n\n\nFileBrowser\n-----------\n\n  0.9.0\n  -----\n  \n  We're now running on python 3.8. Restarting Sublime Text is likely required to give\n  Package Control a chance to fetch new dependencies.\n  \n  🫣\n\n  0.8.5\n  -----\n  \n  The plugin is alive again and has a new home at https://github.com/kaste/SublimeFileBrowser.\n  \n  Only a few bug fixes went into this release.  There is just one very noteable\n  change: we now use your color scheme (e.g. a dark one) instead of ours.\n  However, we still ship our color scheme and use it for the\n  shortcuts/help view.  You can turn that back on in the settings if you prefer.\n  \n  The next release will have more fixes and will run on ST4/python 3.8 only.  Stay tuned.\n  \n  🕺\n",
+			"settings":
+			{
+				"buffer_size": 757,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"package_control_message",
+					{
+						"message": "\n\nFileBrowser\n-----------\n\n  0.9.0\n  -----\n  \n  We're now running on python 3.8. Restarting Sublime Text is likely required to give\n  Package Control a chance to fetch new dependencies.\n  \n  🫣\n\n  0.8.5\n  -----\n  \n  The plugin is alive again and has a new home at https://github.com/kaste/SublimeFileBrowser.\n  \n  Only a few bug fixes went into this release.  There is just one very noteable\n  change: we now use your color scheme (e.g. a dark one) instead of ours.\n  However, we still ship our color scheme and use it for the\n  shortcuts/help view.  You can turn that back on in the settings if you prefer.\n  \n  The next release will have more fixes and will run on ST4/python 3.8 only.  Stay tuned.\n  \n  🕺\n"
+					},
+					"AQAAAAAAAAAAAAAA9QIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
 			"file": "assets/js/sponsor.js",
 			"settings":
 			{
@@ -535,7 +559,7 @@
 					"left_delete",
 					null,
 					"AQAAAOwBAAAAAAAA7AEAAAAAAAAEAAAAbWF4LQ",
-					"AQAAAAAAAAABAAAA8AEAAAAAAADsAQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADwAQAAAAAAAOwBAAAAAAAAAAAAAAAA8L8"
 				]
 			]
 		},
@@ -555,7 +579,7 @@
 					"duplicate_line",
 					null,
 					"AQAAAO0TAAAAAAAA8hQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA7RMAAAAAAADoEgAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADtEwAAAAAAAOgSAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					8,
@@ -565,7 +589,7 @@
 						"characters": "CMGE"
 					},
 					"BQAAAAcUAAAAAAAACBQAAAAAAAAAAAAACBQAAAAAAAAIFAAAAAAAAAsAAABGMSBCZWFyaW5ncwgUAAAAAAAACRQAAAAAAAAAAAAACRQAAAAAAAAKFAAAAAAAAAAAAAAKFAAAAAAAAAsUAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAABxQAAAAAAAASFAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAHFAAAAAAAABIUAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					13,
@@ -575,7 +599,7 @@
 						"characters": "CMGE"
 					},
 					"BQAAADUUAAAAAAAANhQAAAAAAAAAAAAANhQAAAAAAAA2FAAAAAAAAAMAAABGMUI2FAAAAAAAADcUAAAAAAAAAAAAADcUAAAAAAAAOBQAAAAAAAAAAAAAOBQAAAAAAAA5FAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANRQAAAAAAAA4FAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA1FAAAAAAAADgUAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					18,
@@ -585,7 +609,7 @@
 						"characters": "cmge"
 					},
 					"BQAAAB8UAAAAAAAAIBQAAAAAAAAAAAAAIBQAAAAAAAAgFAAAAAAAAAoAAABmMWJlYXJpbmdzIBQAAAAAAAAhFAAAAAAAAAAAAAAhFAAAAAAAACIUAAAAAAAAAAAAACIUAAAAAAAAIxQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAHxQAAAAAAAApFAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAfFAAAAAAAACkUAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					25,
@@ -593,7 +617,7 @@
 					"paste",
 					null,
 					"AgAAABMUAAAAAAAAIxQAAAAAAAAAAAAAIxQAAAAAAAAjFAAAAAAAABQAAABodHRwczovL3d3dy5jbWdlLmNvbQ",
-					"AQAAAAAAAAABAAAAExQAAAAAAAAnFAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAATFAAAAAAAACcUAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					33,
@@ -601,7 +625,7 @@
 					"paste",
 					null,
 					"AgAAADcUAAAAAAAAxhQAAAAAAAAAAAAAxhQAAAAAAADGFAAAAAAAAKQAAABXZSB3b3VsZCBsaWtlIHRvIHRoYW5rIG91ciBzcG9uc29yLCBGMSBCZWFyaW5ncywgZm9yIHN1cHBvcnRpbmcgdXMgdGVjaG5pY2FsbHkgaW4gdGhlIEYxIGluIHNjaG9vbHMgSG9uZyBLb25nIGFuZCBcCiAgICBNYWNhdSBSZWdpb24gUHJvZmVzc2lvbmFsIENsYXNzIENvbXBldGl0aW9uLg",
-					"AQAAAAAAAAABAAAA2xQAAAAAAAA3FAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADbFAAAAAAAADcUAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					36,
@@ -611,7 +635,7 @@
 						"characters": "\\"
 					},
 					"AQAAAKMUAAAAAAAApBQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAoxQAAAAAAACjFAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACjFAAAAAAAAKMUAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					37,
@@ -621,7 +645,7 @@
 						"characters": "\n"
 					},
 					"AgAAAKQUAAAAAAAApRQAAAAAAAAAAAAApRQAAAAAAACpFAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAApBQAAAAAAACkFAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACkFAAAAAAAAKQUAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					74,
@@ -631,7 +655,7 @@
 						"characters": "]"
 					},
 					"AQAAALQFAAAAAAAAtQUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAtAUAAAAAAAC0BQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC0BQAAAAAAALQFAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					75,
@@ -639,7 +663,7 @@
 					"left_delete",
 					null,
 					"AQAAALQFAAAAAAAAtAUAAAAAAAABAAAAXQ",
-					"AQAAAAAAAAABAAAAtQUAAAAAAAC1BQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC1BQAAAAAAALUFAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					76,
@@ -649,7 +673,7 @@
 						"characters": "\nconsole.log"
 					},
 					"DQAAALQFAAAAAAAAtQUAAAAAAAAAAAAAtQUAAAAAAAC3BQAAAAAAAAAAAAC3BQAAAAAAALgFAAAAAAAAAAAAALgFAAAAAAAAuQUAAAAAAAAAAAAAuQUAAAAAAAC6BQAAAAAAAAAAAAC6BQAAAAAAALsFAAAAAAAAAAAAALsFAAAAAAAAvAUAAAAAAAAAAAAAvAUAAAAAAAC9BQAAAAAAAAAAAAC9BQAAAAAAAL4FAAAAAAAAAAAAAL4FAAAAAAAAvwUAAAAAAAAAAAAAvwUAAAAAAADABQAAAAAAAAAAAADABQAAAAAAAMEFAAAAAAAAAAAAAMEFAAAAAAAAwgUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAtAUAAAAAAAC0BQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC0BQAAAAAAALQFAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					77,
@@ -659,7 +683,7 @@
 						"contents": "($0)"
 					},
 					"AQAAAMIFAAAAAAAAxAUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAwgUAAAAAAADCBQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADCBQAAAAAAAMIFAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					78,
@@ -669,7 +693,7 @@
 						"characters": "name"
 					},
 					"BAAAAMMFAAAAAAAAxAUAAAAAAAAAAAAAxAUAAAAAAADFBQAAAAAAAAAAAADFBQAAAAAAAMYFAAAAAAAAAAAAAMYFAAAAAAAAxwUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAwwUAAAAAAADDBQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADDBQAAAAAAAMMFAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					84,
@@ -679,7 +703,7 @@
 						"characters": ";"
 					},
 					"AQAAAMgFAAAAAAAAyQUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAyAUAAAAAAADIBQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADIBQAAAAAAAMgFAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					90,
@@ -687,7 +711,7 @@
 					"duplicate_line",
 					null,
 					"AQAAAMoFAAAAAAAA3wUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAyQUAAAAAAADJBQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADJBQAAAAAAAMkFAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					95,
@@ -697,7 +721,7 @@
 						"characters": "Hello"
 					},
 					"BgAAANgFAAAAAAAA2QUAAAAAAAAAAAAA2QUAAAAAAADZBQAAAAAAAAQAAABuYW1l2QUAAAAAAADaBQAAAAAAAAAAAADaBQAAAAAAANsFAAAAAAAAAAAAANsFAAAAAAAA3AUAAAAAAAAAAAAA3AUAAAAAAADdBQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2AUAAAAAAADcBQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADYBQAAAAAAANwFAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					96,
@@ -705,7 +729,7 @@
 					"left_delete",
 					null,
 					"BQAAANwFAAAAAAAA3AUAAAAAAAABAAAAb9sFAAAAAAAA2wUAAAAAAAABAAAAbNoFAAAAAAAA2gUAAAAAAAABAAAAbNkFAAAAAAAA2QUAAAAAAAABAAAAZdgFAAAAAAAA2AUAAAAAAAABAAAASA",
-					"AQAAAAAAAAABAAAA3QUAAAAAAADdBQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADdBQAAAAAAAN0FAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					97,
@@ -715,7 +739,7 @@
 						"contents": "\"$0\""
 					},
 					"AQAAANgFAAAAAAAA2gUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2AUAAAAAAADYBQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADYBQAAAAAAANgFAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					98,
@@ -725,7 +749,7 @@
 						"characters": "A"
 					},
 					"AQAAANkFAAAAAAAA2gUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2QUAAAAAAADZBQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADZBQAAAAAAANkFAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					104,
@@ -733,19 +757,8 @@
 					"left_delete",
 					null,
 					"AQAAALQFAAAAAAAAtAUAAAAAAAApAAAACiAgY29uc29sZS5sb2cobmFtZSk7CiAgY29uc29sZS5sb2coIkEiKTs",
-					"AQAAAAAAAAABAAAA3QUAAAAAAAC0BQAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADdBQAAAAAAALQFAAAAAAAAAAAAAAAA8L8"
 				]
-			]
-		},
-		{
-			"file": "pages/sponsors/CMGE.txt",
-			"settings":
-			{
-				"buffer_size": 500,
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
 			]
 		}
 	],
@@ -1290,6 +1303,8 @@
 	],
 	"file_history":
 	[
+		"/Users/coder/Documents/Pandurance-blogs/index.json",
+		"/Users/coder/Documents/Pandurance-blogs/pages/a6f2a830-dcf7-425a-87ca-d8270611c7a0.md",
 		"/Users/coder/Documents/Pandurance-web/assets/js/headerFooter.js",
 		"/Users/coder/Documents/Pandurance-web/pages/sponsors/CMGE.txt",
 		"/Users/coder/Documents/Pandurance-web/webpack.config.js",
@@ -1328,7 +1343,6 @@
 		"/Users/coder/Documents/Pandurance-web/pages/sponsors/29c965b4-35f0-4b75-913f-fa6d5bc3e5b0.txt",
 		"/Users/coder/Documents/Pandurance-web/pages/sponsors/4e6589fa-35cc-458b-9d32-104bbf5856d3.txt",
 		"/Users/coder/Documents/Pandurance-web/pages/sponsors/ad398309-4beb-44f6-93be-854a73493f1a.txt",
-		"/Users/coder/Documents/Pandurance-blogs/index.json",
 		"/Users/coder/Documents/Pandurance-blogs/pages/4570aa4d-73b6-478a-ae8b-4d7e218e65e0.md",
 		"/Users/coder/Documents/Pandurance-web/.gitignore",
 		"/Users/coder/Documents/Pandurance-web/package.json",
@@ -1416,8 +1430,7 @@
 		"/Users/coder/Desktop/Steppable/gui/CMakeLists.txt",
 		"/Users/coder/Desktop/Steppable/lib/CMakeLists.txt",
 		"/Users/coder/Desktop/Steppable/src/atan2/atan2Report.cpp",
-		"/Users/coder/Desktop/Steppable/src/trig/trig.cpp",
-		"/Users/coder/Desktop/Steppable/src/atan2/atan2.cpp"
+		"/Users/coder/Desktop/Steppable/src/trig/trig.cpp"
 	],
 	"find":
 	{
@@ -1436,6 +1449,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Grouped",
 			"50",
 			"30",
 			"coder",
@@ -1517,6 +1531,41 @@
 			[
 				{
 					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								757,
+								757
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_indent": false,
+							"default_dir": "/Users/coder/Documents/Pandurance-web/assets/js",
+							"gutter": false,
+							"lsp_uri": "buffer:47",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "assets/js/sponsor.js",
 					"semi_transient": false,
 					"settings":
@@ -1543,12 +1592,12 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "assets/js/index.js",
 					"selected": true,
 					"semi_transient": false,
@@ -1561,8 +1610,8 @@
 						"selection":
 						[
 							[
-								1595,
-								1595
+								1460,
+								1460
 							]
 						],
 						"settings":
@@ -1577,36 +1626,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "pages/sponsors/CMGE.txt",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 500,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								108,
-								500
-							]
-						],
-						"settings":
-						{
-							"lsp_uri": "file:///Users/coder/Documents/Pandurance-web/pages/sponsors/CMGE.txt",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"stack_multiselect": false,
 					"type": "text"
 				}

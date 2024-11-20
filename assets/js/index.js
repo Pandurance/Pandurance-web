@@ -17,13 +17,13 @@ const type = {
 function addMember(name, post, spool) {
   const elm = $("#index-members-showcase");
 
-  import(`/assets/img/MEMBERS/${spool.toUpperCase()}.png`).then(function (m) {
+  import(`/assets/img/MEMBERS/${spool.toUpperCase()}.avif`).then(function (m) {
     elm.append(
       `<div class="col">
         <div class="card border-0 shadow-none">
           <div class="card-body d-flex align-items-center p-0">
             <img
-              class="rounded-circle flex-shrink-0 me-3 fit-cover"
+              class="rounded flex-shrink-0 me-3 fit-cover"
               width="130"
               height="130"
               title="Image of ${name}"

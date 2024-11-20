@@ -74,7 +74,7 @@ const config = {
         use: "url-loader",
       },
       {
-        test: /\.(eot|woff|woff2|png|jpg|gif)$/i,
+        test: /\.(eot|woff|woff2|png|jpg|gif|avif)$/i,
         type: "asset",
       },
       {
