@@ -39,23 +39,22 @@ async function processDoc(id) {
             <td>${i + 1}</td>
             <td>${obj["published_on"][i]}</td>
             <td>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pw-modal"
-              onclick="window.KbSLmoOmRhImzYk = '${id}v${i + 1}';">
+              <a class="btn btn-primary" href="https://github.com/Pandurance/Pandurance-docs/raw/refs/heads/main/doc/${id}v${i + 1}.pdf">
                 <i class="bi bi-download"></i> Download
-              </button>
+              </a>
             </td>
           </tr>`);
   }
 }
 
 window.goToDocPDF = function () {
-  const pwd = $("#pwd").val();
-  const pwdHashed = cyrb53(pwd);
-  if (pwdHashed === window.baheNhhNKTijQvr) {
+//   const pwd = $("#pwd").val();
+//   const pwdHashed = cyrb53(pwd);
+//   if (pwdHashed === window.baheNhhNKTijQvr) {
     window.location.href = `https://github.com/Pandurance/Pandurance-docs/raw/refs/heads/main/doc/${window.KbSLmoOmRhImzYk}.pdf`;
-  } else {
-    $("#fail").text("Incorrect password.");
-  }
+  // } else {
+  //   $("#fail").text("Incorrect password.");
+  // }
 };
 
 $(async function () {

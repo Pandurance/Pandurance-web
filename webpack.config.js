@@ -70,11 +70,7 @@ const config = {
         use: "raw-loader",
       },
       {
-        test: /\.(ttf)$/i,
-        use: "url-loader",
-      },
-      {
-        test: /\.(eot|woff|woff2|png|jpg|gif|avif)$/i,
+        test: /\.(eot|woff|woff2|png|jpg|gif|ttf|avif)$/i,
         type: "asset",
       },
       {

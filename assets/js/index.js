@@ -28,7 +28,7 @@ function addMember(name, post, spool) {
               height="130"
               title="Image of ${name}"
               alt="Image of ${name}"
-              src="${m.default.replace("png", "avif")}"
+              src="${m.default}"
             />
             <div>
               <h5 class="fw-bolder text-primary mb-0">${name}</h5>
