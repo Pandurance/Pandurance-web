@@ -71,12 +71,12 @@ const config = {
       },
       {
         test: /\.(eot|woff|woff2|png|jpg|gif|ttf|avif)$/i,
-        type: "asset",
+        type: "asset/resource"
       },
       {
         test: /\.(svg)$/i,
-        type: "asset",
-        // loader: "svgo-loader",
+        type: "asset/resource",
+        loader: "svgo-loader",
       },
 
       // css file: extract to css file with mini extract plugin
