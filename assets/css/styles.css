@@ -51,3 +51,8 @@ code {
 code {
   color: var(--bs-primary);
 }
+
+.sponsor-large {
+  height: 10rem;
+  margin: 5rem;
+}  
