@@ -188,7 +188,14 @@ $(async function () {
     "https://azure.com",
     "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg",
     type.codeHosting,
-    "This website uses Azure Static Web Apps (SWA) to deliver its contents. The Project Tracker uses an Azure VM to power the server.",
+    "The Project Tracker uses an Azure VM to power the server.",
+  );
+  addTool(
+    "Azure",
+    "https://pages.github.com",
+    "https://pages.github.com/images/logo.svg",
+    type.codeHosting,
+    "This website uses GitHub Pages to deliver its contents.",
   );
 
   let webPackIcon = "https://raw.githubusercontent.com/webpack/media/master/logo/logo-on-white-bg.svg";

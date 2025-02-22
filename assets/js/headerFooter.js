@@ -63,10 +63,10 @@ export function makeFooter() {
         <div class="container">
           <div class="row">
             <div class="col">
-              <a href="https://instagram.com/panduranceracing"><i class="bi bi-instagram h2"></i></a>
+              <a href="https://instagram.com/pandurance.hk"><i class="bi bi-instagram h2"></i></a>
             </div>
             <div class="col">
-              <a href="https://www.threads.net/@panduranceracing"><i class="bi bi-threads h2"></i></a>
+              <a href="https://www.threads.net/@pandurance.hk"><i class="bi bi-threads h2"></i></a>
             </div>
             <div class="col">
               <a href="https://github.com/pandurance"><i class="bi bi-github h2"></i></a>
@@ -74,9 +74,6 @@ export function makeFooter() {
             <div class="col">
               <a href="mailto:info@pandurance.tech"><i class="bi bi-envelope-at-fill h2"></i></a>
             </div>
-            <div class="col">
-              <a href="https://wa.me/message/4JUA7TSP72UJP1"><i class="bi bi-whatsapp h2"></i></a>
-            </div> 
             <div class="col">
               <a href="https://www.linkedin.com/in/pandurance-racing-09041b31b/"><i class="bi bi-linkedin h2"></i></a>
             </div>
