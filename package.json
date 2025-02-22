@@ -25,7 +25,7 @@
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && bash tools/predeploy.sh",
     "deploy": "gh-pages -d dist",
     "watch": "webpack --watch"
   },
