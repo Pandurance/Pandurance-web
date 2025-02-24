@@ -191,7 +191,7 @@ $(async function () {
     "The Project Tracker uses an Azure VM to power the server.",
   );
   addTool(
-    "Azure",
+    "GitHub Pages",
     "https://pages.github.com",
     "https://pages.github.com/images/logo.svg",
     type.codeHosting,

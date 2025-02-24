@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-echo "pandurance.tech" > ./dist/CNAME
+echo "www.pandurance.tech" > ./dist/CNAME
